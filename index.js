@@ -8,6 +8,7 @@ const height = window.innerHeight
 const sizing = 50
 const snakeArray = []
 const size = 0.9 * sizing
+var color = 'black'
 let animationId
 var randPos = {
     x: 0,
@@ -33,7 +34,7 @@ function init(){
         c.beginPath()
         c.moveTo(i, 0)
         c.lineTo(i, canvas.height)
-        c.strokeStyle = 'white'
+        c.strokeStyle = color
         c.stroke()
     }
 
@@ -42,7 +43,7 @@ function init(){
         c.beginPath()
         c.moveTo(0, i)
         c.lineTo(canvas.width, i)
-        c.strokeStyle = 'white'
+        c.strokeStyle = color
         c.stroke()
     }
 }
