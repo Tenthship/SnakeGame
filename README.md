@@ -20,3 +20,8 @@ A browser-based Snake game built using HTML, CSS, and JavaScript. This project w
 2. Use the arrow keys to move the snake.
 3. Eat the food to grow longer and increase your score.
 4. Avoid crashing into walls or yourself.
+
+## Future Features
+1. Restart Button (Game currently just freezes)
+2. Better UI
+3. Sound Effects
